@@ -3,6 +3,7 @@ const movieId = url.searchParams.get("id")
 const movieTitle = url.searchParams.get("title")
 
 const APILINK = 'https://aa2146ed-d6ee-426e-9518-e1a23d276693-00-szotzmthultt.spock.replit.dev/api/v1/reviews/';
+// const APILINK = 'http://localhost:8000/api/v1/reviews/';
 
 const main = document.getElementById("section");
 const title = document.getElementById("title");
