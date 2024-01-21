@@ -1,0 +1,10 @@
+# GET http://localhost:8000/api/v1/reviews/movie/adam
+
+POST http://localhost:8000/api/v1/reviews/new HTTP/1.1
+contet-type: application/json
+
+{
+  "user":"poweruser",
+  "review":"Very nice",
+  "movieId":609681
+}
